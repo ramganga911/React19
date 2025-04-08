@@ -1,5 +1,5 @@
 import React from 'react'
-
+import styled from 'styled-components'
 class User extends React.Component{
     constructor(props){
         super(props);
@@ -7,6 +7,7 @@ class User extends React.Component{
             message:"Welcome to the jungle",
         };
     }
+
     render(){
         return(
             <div>

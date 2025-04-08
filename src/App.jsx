@@ -1,11 +1,26 @@
 
+import { useState } from 'react'
 import CheckBoxes from './components/CheckBoxes'
+import Clock from './components/Clock'
 import LoopsInJSX from './components/LoopsInJSX'
 import Radio from './components/Radio'
-
+import ReuseCompo from './components/ReuseCompo'
+import UseEffect from './components/UseEffect'
+import Counter from './components/Counter'
+import UserCart from './components/UserCart'
+import Wrapper from './components/Wrapper'
+import Uncontrolled from './components/Uncontrolled'
+import UserTwo from './components/UserTwo'
+import UserForm from './components/UserForm'
 
 function App() {
-  
+  // const[count, setCount] = useState(0);
+  // const [data, setData] = useState(0);
+  // const [display, setDisplay] = useState(true);
+
+  const displayName=(name)=>{
+    alert(name);
+  }
 
   return (
     <>
@@ -13,7 +28,21 @@ function App() {
       
       {/* <CheckBoxes/> */}
       {/* <Radio/> */}
-      <LoopsInJSX/>
+      {/* <LoopsInJSX/> */}
+      {/* <ReuseCompo/> */}
+      {/* <Clock/> */}
+      {/* <UseEffect  /> */}
+      {/* {
+        display?<Counter count={count} data={data} />:null
+      }
+     <button onClick={()=>setCount(count+1)} >Counter</button>
+     <button onClick={()=>setData(data+1)} >Data</button>
+     <button onClick={()=>setDisplay(!display)}>Toggle</button> */}
+      {/* <UserCart /> */}
+      {/* <Wrapper><h1>Hello Ram</h1></Wrapper>
+      <Uncontrolled/> */}
+      {/* <UserTwo displayName={displayName} name ="Ramganga" /> */}
+      <UserForm/>
       
     </>
   )
