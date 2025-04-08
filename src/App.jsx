@@ -12,12 +12,18 @@ import Wrapper from './components/Wrapper'
 import Uncontrolled from './components/Uncontrolled'
 import UserTwo from './components/UserTwo'
 import UserForm from './components/UserForm'
+import DerivedState from './components/DerivedState'
+import AddUser from './components/AddUser'
+import DisplayUser from './components/DisplayUser'
+import ObjectUpdate from './components/ObjectUpdate'
+import { Form } from 'react-bootstrap'
+import Formdata from './components/Formdata'
 
 function App() {
   // const[count, setCount] = useState(0);
   // const [data, setData] = useState(0);
   // const [display, setDisplay] = useState(true);
-
+  const [user, setUser] = useState("");
   const displayName=(name)=>{
     alert(name);
   }
@@ -42,8 +48,12 @@ function App() {
       {/* <Wrapper><h1>Hello Ram</h1></Wrapper>
       <Uncontrolled/> */}
       {/* <UserTwo displayName={displayName} name ="Ramganga" /> */}
-      <UserForm/>
-      
+      {/* <UserForm/> */}
+      {/* <DerivedState/> */}
+      {/* <AddUser setUser={setUser} />
+      // <DisplayUser user={user}/> */}
+      <ObjectUpdate/>
+      {/* <Formdata /> */}
     </>
   )
 }
