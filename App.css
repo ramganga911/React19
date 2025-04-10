@@ -1,23 +1,19 @@
-.App {
+.App{
     text-align: center;
 }
-
-.star {
+.star{
     margin: 10px;
     font-size: 70px;
 }
-
-button {
+button{
     background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;
 }
-
-.on {
+.on{
     color: #000;
 }
-
-.off {
+.off{
     color: #ccc;
 }

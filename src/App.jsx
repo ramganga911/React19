@@ -18,6 +18,8 @@ import DisplayUser from './components/DisplayUser'
 import ObjectUpdate from './components/ObjectUpdate'
 import { Form } from 'react-bootstrap'
 import Formdata from './components/Formdata'
+import College from './components/College'
+import Star from './components/Star'
 
 function App() {
   // const[count, setCount] = useState(0);
@@ -52,8 +54,10 @@ function App() {
       {/* <DerivedState/> */}
       {/* <AddUser setUser={setUser} />
       // <DisplayUser user={user}/> */}
-      <ObjectUpdate/>
+      {/* <ObjectUpdate/> */}
       {/* <Formdata /> */}
+      {/* <College/> */}
+      <Star/>
     </>
   )
 }
