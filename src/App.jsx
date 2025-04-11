@@ -20,6 +20,9 @@ import { Form } from 'react-bootstrap'
 import Formdata from './components/Formdata'
 import College from './components/College'
 import Star from './components/Star'
+import ModelPopUp from './components/ModelPopUp'
+import Chessboard from './components/Chessboard'
+import CommentsSection from './components/CommentsSection'
 
 function App() {
   // const[count, setCount] = useState(0);
@@ -32,7 +35,7 @@ function App() {
 
   return (
     <>
-      <h1>This is App Component</h1>
+      <h1>This is Chessboard </h1>
       
       {/* <CheckBoxes/> */}
       {/* <Radio/> */}
@@ -57,7 +60,10 @@ function App() {
       {/* <ObjectUpdate/> */}
       {/* <Formdata /> */}
       {/* <College/> */}
-      <Star/>
+      {/* <Star/> */}
+      {/* <ModelPopUp/> */}
+      <Chessboard/>
+      <CommentsSection/>
     </>
   )
 }
